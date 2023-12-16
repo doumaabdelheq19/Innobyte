@@ -65,6 +65,8 @@ Explore new content, connect with other users, and discover exciting features in
 
 It's only for the hotel manager he can see all the staff of the hotel .
 
+#in our aplication we will help the cleaning staffs and security mens to easily be in contact with the hotel and can show the latest updates
+
 ## Event plans
 They can schedule events and control it easily
 
