@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body style="background-image:  url('DESKTOP.jpg')">
+
+
+    <div class="sidenav">
+        <img class="imagelogo" src="logoo.png" alt="">
+        <div id="reserva"><a class="menuside"  href="douma.php">Statistics</a></div>
+        <div id="stuff"><a class="menuside"  href="staffs.php">Stuffs</a></div>
+        <div id="reserva"><a class="menuside"  href="eventsplan.php">Events plans</a></div>
+        <div id="stati" ><a class="menuside"  href="card.php">Rooms</a></div>
+        <div id="reserva"><a class="menuside"  href="restauration.php">Restauration</a></div>
+        
+      </div>
+
+      <div class="main">
+        <div class="navbar">
+            <h2>Hello mr.deriche ,</h2>
+            <div style=" display: flex; align-items: center; margin-right: 70px;"><a class="addstaff" href="addstaff.html"><i class="fa-solid fa-plus"></i> Add staff</a>
+                <a href="logout.php"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+            </div>
+        
+            
+        </div>
+    <div class="container our-services">
+        <div class="row" style="display: flex; justify-content: space-between;">
+          
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front" style="background: #009345 !important;">
+                  <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                  <h3>Room 001</h3>
+                </div>
+                <div class="back" style="background: #009345 !important;">
+                  <h5>Room 001 -- Single room</h5>
+                  <p style="font-size: 18px;">This Room is available.
+                  </p>
+                </div>
+             
+            </div>
+          </div>
+          
+            
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background: #ED1616 !important;">
+                <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                <h3>Room 002</h3>
+              </div>
+              <div class="back" style="background: #ED1616 !important;">
+                <h5>Room 002 -- Single room</h5>
+                <p style="font-size: 18px;">This Room is Reserved by :<br>
+                    
+          Abdelheq douma 
+          <br>
+          <br>
+          Arrival date: 14 12 2023
+          <br>
+          <br>
+          Departure date : 16 12 2023
+                </p>
+              </div>
+           
+          </div>
+        </div>
+         
+           
+        <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background: #009345 !important;">
+                <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                <h3>Room 003</h3>
+              </div>
+              <div class="back" style="background: #009345 !important;">
+                <h5>Room 003 -- Single room</h5>
+                <p style="font-size: 18px;">This Room is available.
+                </p>
+              </div>
+           
+          </div>
+        </div>
+       
+          
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row" style="display: flex; justify-content: space-between;">
+          
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front" style="background: #009345 !important;">
+                  <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                  <h3>Room 004</h3>
+                </div>
+                <div class="back" style="background: #009345 !important;">
+                  <h5>Room 004 -- Single room</h5>
+                  <p style="font-size: 18px;">This Room is available.
+                  </p>
+                </div>
+             
+            </div>
+          </div>
+          
+            
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background: #ED1616 !important;">
+                <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                <h3>Room 005 </h3>
+              </div>
+              <div class="back" style="background: #ED1616 !important;">
+                <h5>Room 005 -- Single room</h5>
+                <p style="font-size: 18px;">This Room is Reserved by :<br>
+                    
+          Abdelheq douma 
+          <br>
+          <br>
+          Arrival date: 14 12 2023
+          <br>
+          <br>
+          Departure date : 16 12 2023
+                </p>
+              </div>
+           
+          </div>
+        </div>
+         
+           
+        <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background: #ED1616 !important;">
+                <img class="lazyload" src="hotel-syphax.jpg" alt="Avatar" style="width:100%;height:150px;margin-top: 0; border-top-right-radius: 10px;  border-top-left-radius: 10px;">
+                <h3>Room 006</h3>
+              </div>
+              <div class="back" style="background: #ED1616 !important;">
+                <h5>Room 006 -- Single room</h5>
+                <p style="font-size: 18px;">This Room is Reserved by :<br>
+                    
+                    Abdelheq douma 
+                    <br>
+                    <br>
+                    Arrival date: 14 12 2023
+                    <br>
+                    <br>
+                    Departure date : 16 12 2023
+                          </p>
+              </div>
+           
+          </div>
+        </div>
+       
+          </div>
+        </div>
+
+
+    </div>
+      </div>
+    </div>
+</body>
+</html>
