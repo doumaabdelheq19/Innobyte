@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body style="background-image:  url('DESKTOP.jpg')">
+    <div id="chat-window">
+      <img style="width: 316px;" src="logoo.png" alt="">
+      <div class="main-title">Syphax Hotel in Bejaia, Algeria, opened in 2016, showcases stunning views of the Mediterranean Sea. It combines modern style with beautiful coastal scenes for an unforgettable stay by the beach.</div>
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input
+          type="text"
+          id="chat-input"
+          autocomplete="off"
+          placeholder="Type your message here"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
